@@ -1,0 +1,63 @@
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+      }
+  
+  /* Stil für das Input-Feld */
+  input[type="text"],
+  input[type="email"],
+  input[type="telephone"],
+  input[type="complaint"],
+  input[type="hidden"]
+   {
+    color:aqua;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #000000;
+    background-color:rgba(206, 75, 0, 0.712);
+    border-radius: 25px; /* Erzeugt runde Ecken */
+  }
+  
+  /* Stil für das Input-Feld beim Fokussieren */
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="telephone"]:focus,
+  input[type="complaint"]:focus,
+  input[type="hidden"]:focus 
+  {
+    outline:invert;
+    border-color: #a82700;
+  }
+  
+  /* Stil für das Input-Feld, wenn es ungültig ist */
+  input[type="text"]:invalid,
+  input[type="email"]:invalid,
+  input[type="telephone"]:invalid {
+    border-color: #ffffff;
+  }
+
+  fieldset, form {
+    border: none;
+  }
+
+  .formbutton {
+    color: #ffffff;
+    background-color:rgb(206, 76, 0);
+    width: 10qq0%;
+        
+  }
+  textarea {
+    background-color:rgba(206, 75, 0, 0.712);
+    width: 100%;
+    }
+
+  input::placeholder {
+    color: #ffffff; /* Hier kannst du die gewünschte Farbe einstellen */
+}
+  textarea::placeholder {
+    color: #ffffff; /* Hier kannst du die gewünschte Farbe einstellen */
+}

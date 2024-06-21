@@ -1,0 +1,112 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.08px;
+  color: #212121;
+  font-weight: 600;
+}
+
+p,
+span,
+li {
+  font-weight: 800;
+  letter-spacing: 0.08px;
+  line-height: 0.9;
+  color: #021268;
+}
+
+.navbar {
+  /* border: 5px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  /* border: 5px solid blue; */
+  display: block;
+  font-weight: 800;
+}
+
+.nav-list {
+  /* border: 5px solid blue; */
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-list__item {
+  /* border: 5px solid lime; */
+  margin: 0 8px;
+}
+
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.bg {
+  /* Das Hintergrundbild */
+  background-image: url('../images/2.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Stil für die Menüleiste mit Transparenz */
+.menu-bar {
+  overflow: hidden;
+  background-color: rgba(206, 75, 0, 0.712); /* Dunkler Hintergrund mit Transparenz */
+}
+
+/* Stil für die Menülinks */
+.menu-bar a {
+  
+  padding: 0px 0px;
+
+  }
+
+/* Container-Stil */
+.container {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Stellt sicher, dass der Container die volle Höhe der Ansicht einnimmt */
+}
+
+
+
+
+/* Stil für den Footer mit Transparenz */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.5); /* Dunkler Hintergrund mit Transparenz */
+  color: white; /* Weiße Textfarbe */
+  text-align: center;
+}
